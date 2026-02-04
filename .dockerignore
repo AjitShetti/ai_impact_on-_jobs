@@ -1,0 +1,105 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+build
+develop-eggs
+dist
+downloads
+eggs
+.eggs
+lib
+lib64
+parts
+sdist
+var
+wheels
+*.egg-info
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE and editors
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov
+.tox
+.hypothesis
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+logs
+*.log
+*.pot
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Build artifacts (keep only trained models)
+artifacts/train.csv
+artifacts/test_csv
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Docker files (not needed in image)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation build files
+docs/_build
+
+# Miscellaneous
+node_modules
+package-lock.json
+yarn.lock
